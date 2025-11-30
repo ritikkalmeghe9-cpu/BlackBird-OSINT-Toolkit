@@ -1,8 +1,6 @@
 # BlackBird-OSINT-Toolkit
 A lightweight, terminal-based Offensive OSINT Toolkit for Kali Linux. Features IP geolocation, phone number OSINT, username reconnaissance, EXIF metadata extraction, domain WHOIS, and email MX lookup — all with colorful output and animated banner.
 
-# ⚔️ Offensive OSINT Toolkit (Kali Linux Terminal-Based)
-
 A lightweight, fast, and colorful **OSINT (Open-Source Intelligence)** toolkit built for **Kali Linux** and terminal users.  
 This tool performs reconnaissance tasks such as **IP geolocation, phone number OSINT, username enumeration, EXIF extraction, domain WHOIS**, and more — all in a **single Python script** with **no file saving** and no GUI.
 
