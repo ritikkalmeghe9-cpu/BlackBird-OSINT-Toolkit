@@ -12,9 +12,6 @@ import os
 
 init(autoreset=True)
 
-# ---------------------------------------------------------
-# COLORS
-# ---------------------------------------------------------
 R = Fore.RED
 G = Fore.GREEN
 Y = Fore.YELLOW
@@ -22,15 +19,9 @@ B = Fore.BLUE
 C = Fore.CYAN
 W = Fore.WHITE
 
-# ---------------------------------------------------------
-# CLEAR SCREEN
-# ---------------------------------------------------------
 def clear():
     os.system("clear")
 
-# ---------------------------------------------------------
-# ANIMATED BANNER
-# ---------------------------------------------------------
 def banner():
     ascii_art = [
         "▒█████    ██████  ██▓ ███▄    █ ▄▄▄█████▓",
@@ -49,12 +40,8 @@ def banner():
     for line in ascii_art:
         print(C + line)
         time.sleep(0.03)
-    print("\n")
-
-
-# ---------------------------------------------------------
-# IP GEOLOCATION MODULE + GOOGLE MAPS LINK
-# ---------------------------------------------------------
+    print("\n") 
+    
 def ip_geolocation():
     clear()
     print(C + "🌍 IP GEOLOCATION MODULE\n")
@@ -87,7 +74,7 @@ def ip_geolocation():
 
 # ---------------------------------------------------------
 # PHONE OSINT WITH REAL-TIME LOCATION + GOOGLE MAP LINK
-# ---------------------------------------------------------
+
 def phone_lookup():
     clear()
     print(C + "📱 PHONE OSINT MODULE (With Live Region Link)\n")
@@ -118,7 +105,7 @@ def phone_lookup():
 
 # ---------------------------------------------------------
 # EMAIL MODULE
-# ---------------------------------------------------------
+
 def email_lookup():
     clear()
     print(C + "📧 EMAIL OSINT MODULE\n")
@@ -138,7 +125,7 @@ def email_lookup():
 
 # ---------------------------------------------------------
 # USERNAME MODULE
-# ---------------------------------------------------------
+
 def username_lookup():
     clear()
     print(C + "👤 USERNAME OSINT MODULE\n")
@@ -166,7 +153,6 @@ def username_lookup():
 
 # ---------------------------------------------------------
 # EXIF READER
-# ---------------------------------------------------------
 def exif_lookup():
     clear()
     print(C + "🖼️ EXIF IMAGE ANALYSIS\n")
@@ -188,7 +174,7 @@ def exif_lookup():
 
 # ---------------------------------------------------------
 # DOMAIN WHOIS LOOKUP
-# ---------------------------------------------------------
+
 def domain_lookup():
     clear()
     print(C + "🌐 DOMAIN WHOIS MODULE\n")
@@ -207,7 +193,6 @@ def domain_lookup():
 
 # ---------------------------------------------------------
 # MAIN MENU
-# ---------------------------------------------------------
 def menu():
     while True:
         clear()
@@ -245,5 +230,6 @@ def menu():
 
 # ---------------------------------------------------------
 # RUN TOOL
-# ---------------------------------------------------------
+
 menu()
+
